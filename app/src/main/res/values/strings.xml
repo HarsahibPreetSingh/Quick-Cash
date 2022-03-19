@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QuickCash</string>
+    <string name="welcome_title">Welcome to Quick Cash</string>
+    <string name="employer">Employer</string>
+    <string name="employee">Employee</string>
+
+    <string name="nav_open">Open sidebar menu</string>
+    <string name="nav_close">Close sidebar menu</string>
+
+    <string-array name="jobs_array">
+        <item>N/A</item>
+        <item>Repair Computer</item>
+        <item>Mow Lawn</item>
+        <item>Pet Walking</item>
+        <item>Baby Sitting</item>
+        <item>Grocery Pick Up</item>
+    </string-array>
+
+    <string-array name="urgency_array">
+        <item>Urgent</item>
+        <item>Not Urgent</item>
+    </string-array>
+</resources>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".usermanagement.SignupActivity">
+
+
+    <!-- UI for signup -->
+
+    <EditText
+        android:id="@+id/registerFirstName"
+        android:layout_width="362dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_editable_textviews"
+        android:ems="30"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="first name "
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#DDD"
+        android:textColorHint="#BBB"
+        android:textStyle="bold"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/registerLastName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <EditText
+        android:id="@+id/registerLastName"
+        android:layout_width="362dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_editable_textviews"
+        android:ems="30"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="last name"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#DDD"
+        android:textColorHint="#BBB"
+        android:textStyle="bold"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/registerEmail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="362dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_editable_textviews"
+        android:ems="30"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#DDD"
+        android:textColorHint="#BBB"
+        android:textStyle="bold"
+        android:nextFocusForward="@+id/registerPhoneNumber"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/registerPhoneNumber"
+        android:layout_width="362dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_editable_textviews"
+        android:ems="30"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="phone number"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#DDD"
+        android:textColorHint="#BBB"
+        android:textStyle="bold"
+        android:nextFocusForward="@+id/registerPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474"
+        tools:ignore="Autofill,HardcodedText" />
+
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="362dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_editable_textviews"
+        android:ems="30"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#DDD"
+        android:textColorHint="#BBB"
+        android:textStyle="bold"
+        android:nextFocusForward="@+id/confirmPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="362dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_editable_textviews"
+        android:ems="30"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#DDD"
+        android:textColorHint="#BBB"
+        android:textStyle="bold"
+        android:nextFocusForward="@+id/radioGroup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.59" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:nextFocusForward="@+id/registerButton"
+        app:layout_constraintBottom_toTopOf="@+id/registerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassword">
+
+        <RadioButton
+            android:id="@+id/employeeRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:checked="true"
+            android:text="@string/employee"
+            android:textColor="#F4F3F3" />
+
+
+
+        <RadioButton
+            android:id="@+id/employerRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer"
+            android:textColor="#F4F3F3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:text="Register"
+        android:nextFocusForward="@+id/backToLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/backToLogin"
+        android:layout_width="301dp"
+        android:layout_height="53dp"
+        android:text="already registered? back to login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+
+    <!-- STYLING ELEMENTS -->
+    <TextView
+        android:id="@+id/quickCashLogo"
+        android:layout_width="149dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="604dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Quick"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#08AA08"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/quickcashlogo2"
+        android:layout_width="177dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="544dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="CA$H"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#08AA08"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

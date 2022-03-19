@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "546251800671",
+    "firebase_url": "https://csci3130-group1-quick-cash-default-rtdb.firebaseio.com",
+    "project_id": "csci3130-group1-quick-cash",
+    "storage_bucket": "csci3130-group1-quick-cash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546251800671:android:6c212ad83eca2c3cec5bea",
+        "android_client_info": {
+          "package_name": "ca.dal.csci3130.quickcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546251800671-kqcpvhlmk7535eui839uhgvld7oq5doh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvZt6NNTrMWDtZZ2hSjGJcmyKA8TC3-gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546251800671-kqcpvhlmk7535eui839uhgvld7oq5doh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546251800671:android:b6e36d42114368bfec5bea",
+        "android_client_info": {
+          "package_name": "com.example.csci3130_group1_quick_cash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546251800671-kqcpvhlmk7535eui839uhgvld7oq5doh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvZt6NNTrMWDtZZ2hSjGJcmyKA8TC3-gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546251800671-kqcpvhlmk7535eui839uhgvld7oq5doh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
