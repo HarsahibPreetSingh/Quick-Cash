@@ -1,2 +1,2 @@
-# CSCI3130 Group1
+# Quick Cash
 
